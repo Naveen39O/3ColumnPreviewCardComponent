@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+
+
+
+
+
+@media (max-width: 375px){
+  .App{
+    padding: 20% 5%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App{
+
 }
 
-.App-link {
-  color: #61dafb;
+.card{
+  padding: 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.SEDANS{
+  background-color: hsl(31, 77%, 52%);
 }
+
+.SUVS{
+  background-color: hsl(184, 100%, 22%);
+}
+
+.LUXURY{
+  background-color: hsl(179, 100%, 13%);
+}
+
+.attribution{
+   font-size: 11px;
+   text-align: center; 
+}
+
+.attribution a {
+   color: hsl(228, 45%, 44%); 
+}
+
