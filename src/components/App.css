@@ -2,17 +2,13 @@
   box-sizing: border-box;
 }
 
-
-
-
-
-
-
-
+body{
+  background-color: hsl(0, 0%, 95%);
+}
 
 @media (max-width: 375px){
   .App{
-    padding: 20% 5%;
+    padding: 20% 7%;
   }
 }
 
@@ -21,11 +17,35 @@
 }
 
 .card{
-  padding: 10%;
+  padding: 15%;
+}
+
+.card h1{
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+.card p{
+  color: hsl(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 2em;
+}
+
+.btn{
+  border-radius: 50px;
+  display: inline-block;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 14px;
+  margin-top: 20px;
+  padding: 15px;
+  width: 70%;
 }
 
 .SEDANS{
   background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 10px 0 0;
 }
 
 .SUVS{
@@ -34,6 +54,22 @@
 
 .LUXURY{
   background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 10px 10px;
+}
+
+.SEDANS .btn{
+  border: 2px solid hsl(31, 77%, 55%);
+  color: hsl(31, 77%, 52%);
+}
+
+.SUVS .btn{
+  border: 2px solid hsl(184, 100%, 25%);
+  color: hsl(184, 100%, 22%);
+}
+
+.LUXURY .btn{
+  border: 2px solid hsl(179, 100%, 15%);
+  color: hsl(179, 100%, 13%);
 }
 
 .attribution{
