@@ -21,18 +21,19 @@ const carTypes =[
 function App() {
   return (
     <div className="App">
-      {/* <Card imageSrc={"./images/icon-sedans.svg"} title={"SEDANS"} content={"Choose a sedan"}/> */}
-      {
-        carTypes.map(carModel => {
-          return (
-            <Card 
-              imageSrc= {carModel.image}
-              title= {carModel.title}
-              content= {carModel.content}
-            />
-          )
-        })
-      }
+      <div className = "row">
+        {
+          carTypes.map(carModel => {
+            return (
+              <Card 
+                imageSrc= {carModel.image}
+                title= {carModel.title}
+                content= {carModel.content}
+              />
+            )
+          })
+        }
+      </div>
     </div>
   );
 }
