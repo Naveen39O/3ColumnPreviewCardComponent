@@ -62,14 +62,32 @@ body{
   color: hsl(31, 77%, 52%);
 }
 
+.SEDANS .btn:hover{
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  border: 2px solid white;
+}
+
 .SUVS .btn{
   border: 2px solid hsl(184, 100%, 25%);
   color: hsl(184, 100%, 22%);
 }
 
+.SUVS .btn:hover{
+  background-color: hsl(184, 100%, 25%);
+  color: white;
+  border: 2px solid white;
+}
+
 .LUXURY .btn{
   border: 2px solid hsl(179, 100%, 15%);
   color: hsl(179, 100%, 13%);
+}
+
+.LUXURY .btn:hover{
+  background-color: hsl(179, 100%, 15%);
+  color: white;
+  border: 2px solid white;
 }
 
 .attribution{
