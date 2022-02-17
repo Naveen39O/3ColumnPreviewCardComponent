@@ -24,7 +24,7 @@ const carTypes =[
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       <div className = "row">
         {
           carTypes.map((carModel, index) => {
@@ -39,7 +39,7 @@ function App() {
           })
         }
       </div>
-    </div>
+    </main>
   );
 }
 
